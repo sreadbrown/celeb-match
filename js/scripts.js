@@ -7,7 +7,7 @@ $(document).ready(function() {
       if (age < 35) {
       $('#lily').show();
       }
-      if (36 < age < 50) {
+      if ((36 < age) && (age < 50)) {
       $('#pike').show();
       }
       if (age > 50) {
